@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+
+    .left {
+        .logo {
+            padding: 0;
+
+
+            img {
+                width: 50px;
+            }
+        }
+
+    }
+
+    .right {
+        ul {
+            display: flex;
+            list-style: none;
+        }
+
+        a {
+            margin-left: 1em;
+            text-decoration: none;
+            color: #333;
+
+        }
+    }
+}
