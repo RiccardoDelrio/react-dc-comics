@@ -11,6 +11,12 @@
     --text-footer-color: #626b67;
 }
 
+#root {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+}
+
+
 header {
 
     .navbar {
@@ -80,9 +86,17 @@ header {
 main {
     color: white;
     background-color: var(--background-color);
-    min-height: 100px;
-    padding: 10px 100px;
+    height: 320px;
+
     margin: 0 auto;
+
+    .container {
+        width: 75%;
+        margin: 0 auto;
+        display: flex;
+
+
+    }
 }
 
 .banner {
@@ -118,28 +132,93 @@ main {
 }
 
 footer {
-    background-image: url(./img/footer-bg.jpg);
+
+
 
     .container {
-        width: 75%;
-        margin: 0 auto;
+        background-image: url(./img/footer-bg.jpg);
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
 
-        ul {
-            list-style: none;
+        .logo_bg {
+            position: absolute;
+            top: -30%;
+            left: 55%;
+        }
 
-            padding: 30px 0 50px;
+        .row {
 
-            .list-title {
-                color: white;
-                padding: 10px 0;
-            }
+            display: flex;
+            width: 75%;
+            margin: 0 auto;
+            column-gap: 30px;
 
-            li {
-                a {
-                    color: var(--text-footer-color)
+
+
+            ul {
+
+                list-style: none;
+                padding: 30px 0 50px;
+
+                .list-title {
+                    color: white;
+                    padding: 10px 0;
                 }
+
+                li {
+                    padding: 2px 0;
+
+                    a {
+                        color: var(--text-footer-color);
+                        text-decoration: none;
+
+                    }
+                }
+
             }
 
         }
+    }
+
+    .banner {
+        background-color: var(--background-color);
+        min-height: 100px;
+        display: flex;
+        align-items: center;
+
+        .row {
+            width: 75%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+
+            .btn {
+
+                color: white;
+                padding: 10px 10px;
+                border: 1px solid var(--primary-color);
+                cursor: pointer;
+                text-decoration: none;
+            }
+
+            .social {
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+
+                span {
+                    color: var(--primary-color)
+                }
+
+                a {
+                    margin-left: 15px;
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+        }
+
+
     }
 }
