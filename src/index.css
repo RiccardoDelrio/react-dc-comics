@@ -16,14 +16,16 @@
     font-weight: 500;
 }
 
-
 header {
+
 
     .navbar {
         height: 120px;
         padding: 10px 0;
-        width: 75%;
+        max-width: 75%;
         margin: 0 auto;
+
+
         display: flex;
         justify-content: space-between;
         height: 120px;
@@ -133,8 +135,6 @@ main {
 
 footer {
 
-
-
     .container {
         background-image: url(./img/footer-bg.jpg);
         background-size: cover;
@@ -172,6 +172,10 @@ footer {
                     a {
                         color: var(--text-footer-color);
                         text-decoration: none;
+
+                        &:hover {
+                            color: var(--primary-color);
+                        }
 
                     }
                 }

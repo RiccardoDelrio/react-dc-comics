@@ -20,7 +20,6 @@ export default function Headers() {
                         <li><a href="#">NEWS</a></li>
                         <li><a href="#">SHOP</a></li>
 
-
                     </ul>
 
                 </div>
