@@ -88,7 +88,8 @@ header {
 main {
     color: white;
     background-color: var(--background-color);
-    height: 320px;
+    height: 600px;
+
 
     margin: 0 auto;
 
@@ -96,6 +97,25 @@ main {
         width: 75%;
         margin: 0 auto;
         display: flex;
+        position: relative;
+        flex-wrap: wrap;
+        padding-top: 50px;
+
+        .flag {
+            border: 1px solid var(--primary-color);
+            padding: 5px 15px;
+            position: absolute;
+            top: -15px;
+            background-color: var(--primary-color);
+        }
+
+        .card {
+            width: calc(100%/12*2);
+
+            img {
+                width: 100%;
+            }
+        }
 
 
     }
@@ -225,4 +245,10 @@ footer {
 
 
     }
+}
+
+.jumbotron {
+    height: 350px;
+    background-image: url(./img/jumbotron.jpg);
+    background-size: cover;
 }
