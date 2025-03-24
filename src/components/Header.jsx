@@ -1,5 +1,9 @@
+
+
 export default function Headers({ links }) {
+
     return (
+
         <header>
             <div className="navbar">
                 <div className="left">
@@ -12,6 +16,8 @@ export default function Headers({ links }) {
                         {links.map((link, index) => (
                             <li key={index}><a href={link.url}>{link.text}</a></li>
                         ))}
+
+
                     </ul>
                 </div>
             </div>

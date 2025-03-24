@@ -55,6 +55,7 @@ header {
                 display: flex;
                 list-style: none;
                 height: 100%;
+                align-items: center;
 
                 li {
                     display: flex;
@@ -77,6 +78,8 @@ header {
                         }
                     }
                 }
+
+
             }
 
 
@@ -93,6 +96,15 @@ main {
     margin: 0 auto;
 
     .container {
+        position: relative;
+
+        input {
+            height: 30px;
+            position: absolute;
+            top: -20px;
+            left: 700px
+        }
+
         width: 75%;
         margin: 0 auto;
         display: flex;

@@ -1,5 +1,6 @@
 /* import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg' */
+
 import Headers from './components/Header'
 import Footers from './components/Footer'
 import Main from './components/Main'
@@ -8,6 +9,7 @@ import Jumbotron from './components/Jumbotron'
 import navLinks from './data/navLinks'
 import FooterLink from './data/footer'
 import comics from './data/comics'
+
 function App() {
 
   return (
