@@ -6,6 +6,7 @@ import Main from './components/Main'
 import Banner from './components/Banner'
 import Jumbotron from './components/Jumbotron'
 import navLinks from './data/navLinks'
+import FooterLink from './data/footer'
 function App() {
 
   return (
@@ -14,7 +15,7 @@ function App() {
       <Jumbotron />
       <Main />
       <Banner />
-      <Footers />
+      <Footers links={FooterLink.dc_footer} links_shop={FooterLink.shop_footer} links_privacy={FooterLink.dc_comics} links_sites={FooterLink.dc_comics} />
     </>
   )
 }
