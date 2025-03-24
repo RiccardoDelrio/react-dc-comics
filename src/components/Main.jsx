@@ -1,5 +1,5 @@
 import Card from './card'
-import comics from '/data/comics.js'
+import comics from '../data/comics'
 import LoadBtn from './LoadBtn'
 
 export default function Main() {

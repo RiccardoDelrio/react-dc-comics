@@ -5,13 +5,12 @@ import Footers from './components/Footer'
 import Main from './components/Main'
 import Banner from './components/Banner'
 import Jumbotron from './components/Jumbotron'
-import NavLinks from './data/navLinks'
-
+import navLinks from './data/navLinks'
 function App() {
 
   return (
     <>
-      <Headers />
+      <Headers links={navLinks} />
       <Jumbotron />
       <Main />
       <Banner />
