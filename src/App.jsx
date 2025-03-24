@@ -5,6 +5,7 @@ import Footers from './components/Footer'
 import Main from './components/Main'
 import Banner from './components/Banner'
 import Jumbotron from './components/Jumbotron'
+import NavLinks from './data/navLinks'
 
 function App() {
 

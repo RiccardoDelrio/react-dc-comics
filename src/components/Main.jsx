@@ -1,6 +1,7 @@
 import Card from './card'
 import comics from '/data/comics.js'
 import LoadBtn from './LoadBtn'
+
 export default function Main() {
 
 
