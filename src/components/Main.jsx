@@ -1,22 +1,16 @@
 import Card from './card'
-import comics from '../data/comics'
 import LoadBtn from './LoadBtn'
 
-export default function Main() {
-
-
-
+export default function Main({ array }) {
     return (
-
-
         <main>
             <div className="container">
                 <div className="flag">
                     Current series
                 </div>
 
-                {comics.map((comic) => (
-                    <Card src={comic.thumb} title={comic.series} />
+                {array.map((comic, index) => (
+                    <Card key={index} src={comic.thumb} title={comic.series} />
                 )
                 )}
 
